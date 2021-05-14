@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Lab 4160</title>
+    <script type="text/javascript" src="./dist/quill.bundle.js" async></script>
+    <link rel=stylesheet href="//cdn.quilljs.com/1.3.6/quill.snow.css" async defer>
+    <link rel=stylesheet href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" async defer>
+    <link rel=stylesheet href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css" async defer>
+</head>
+<body>
+  <h2>Lab 4160</h2>
+  <button type="button" id="button">Disconnect</button>
+  <br>
+  <label for="username">My name is </label>
+  <input id="username" type="text" />
+  <div id="users"></div>
+  <div id="editor"></div>
+  <style>
+    #button, #username, #users {
+      margin-bottom: 1em;
+    }
+    #users {
+      font-weight: bold;
+    }
+    #editor {
+      min-height: 500px;
+    }
+  </style>
+</body>
+</html>
